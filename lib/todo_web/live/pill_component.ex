@@ -15,13 +15,10 @@ defmodule TodoWeb.PillComponent do
   Types are semantically named and include colors. No additional styling should be required.
   * `default` - teal
   * `active` - green
-  * `confirm` - pink
+  * `confirm` - green
   * `disabled` - grey
   * `warning` - yellow
   * `error` - red
-  * `neutral` - white with grey border
-  * `neutral-pink` - white with pink border
-  * `neutral-teal` - white with teal border
   ## Examples
       <%= live_component @socket, TodoWeb.PillComponent, content: "removed", type: "confirm" %>
   """
